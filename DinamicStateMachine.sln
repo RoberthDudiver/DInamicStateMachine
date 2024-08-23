@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DinamicStateMachine", "MotorDereglasDeejemplo\DinamicStateMachine.csproj", "{87C017FA-EB55-460E-840C-A474C8A7CD30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DinamicStateMachine", "DinamicStateMachine\DinamicStateMachine.csproj", "{87C017FA-EB55-460E-840C-A474C8A7CD30}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{23B18F48-3AA7-4968-A7D5-170BBD82DAF8}"
 EndProject
