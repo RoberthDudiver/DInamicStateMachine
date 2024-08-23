@@ -1,0 +1,58 @@
+[
+  {
+    "EstadoOrigen": "Abierto",
+    "EstadoDestino": "Cerrado",
+    "Accion": {
+      "Tipo": "EjemploEventoAccion",
+      "Dll": "EjemploEventoAccionDll.dll"
+    }
+  },
+  {
+    "EstadoOrigen": "Cerrado",
+    "EstadoDestino": "En Carga",
+    "Accion": {
+      "Tipo": "OtraAccion",
+      "Dll": "OtraAccionDll.dll"
+    }
+  },
+  {
+    "EstadoOrigen": "En Carga",
+    "EstadoDestino": "En Espera de Transporte",
+    "Accion": {
+      "Tipo": "OtraAccion",
+      "Dll": "OtraAccionDll.dll"
+    }
+  },
+  {
+    "EstadoOrigen": "En Espera de Transporte",
+    "EstadoDestino": "Cargado en Vehículo",
+    "Accion": {
+      "Tipo": "OtraAccion",
+      "Dll": "OtraAccionDll.dll"
+    }
+  },
+  {
+    "EstadoOrigen": "Cargado en Vehículo",
+    "EstadoDestino": "En Tránsito",
+    "Accion": {
+      "Tipo": "OtraAccion",
+      "Dll": "OtraAccionDll.dll"
+    }
+  },
+  {
+    "EstadoOrigen": "En Tránsito",
+    "EstadoDestino": "Descarga",
+    "Accion": {
+      "Tipo": "OtraAccion",
+      "Dll": "OtraAccionDll.dll"
+    }
+  },
+  {
+    "EstadoOrigen": "Descarga",
+    "EstadoDestino": "Desconsolidar",
+    "Accion": {
+      "Tipo": "EjemploEventoAccion",
+      "Dll": "OtraAccionDll.dll"
+    }
+  }
+]
